@@ -1,0 +1,41 @@
+{
+  "name": "@vapurrmaid/prettier-config",
+  "version": "0.0.0",
+  "description": "Vapurrmaid's opinionated configuration for prettier",
+  "keywords": [
+    "config",
+    "prettier"
+  ],
+  "homepage": "https://github.com/vapurrmaid/prettier-config",
+  "bugs": {
+    "email": "vapurrmaid@pm.me"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "vapurrmaid@pm.me",
+    "name": "Gregory (Grey) Barkans",
+    "url": "https://github.com/vapurrmaid"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vapurrmaid/prettier-config"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "postbuild": "cpy src/assets/.prettierrc dist/assets",
+    "release": "yarn build && release-it"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.3",
+    "@vapurrmaid/editor-config": "^0.2.2",
+    "cpy-cli": "^3.1.0",
+    "release-it": "^13.3.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}

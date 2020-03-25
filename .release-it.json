@@ -1,0 +1,10 @@
+{
+  "git": {
+    "commitMessage": ":rocket: v${version}"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "Release ${version}",
+    "tokenRef": "RELEASE_IT_GITHUB_TOKEN"
+  }
+}
