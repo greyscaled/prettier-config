@@ -1,6 +1,6 @@
 {
   "name": "@vapurrmaid/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vapurrmaid's opinionated configuration for prettier",
   "keywords": [
     "config",
