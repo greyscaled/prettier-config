@@ -32,7 +32,7 @@ npm install --save-dev @vapurrmaid/prettier-config
 From there, you must run the executable to install in the current directory:
 
 ```bash
-./node_modules/.bin/prettier-config
+node ./node_modules/.bin/prettier-config
 ```
 
 ## Contributions
