@@ -6,6 +6,7 @@ This package installs an opinionated `prettier` configuration.
 
 - `.prettierrc` configuration file
 - `prettier` npm package
+- `prettier-plugin-organize-imports` npm package
 
 ## Installation
 
